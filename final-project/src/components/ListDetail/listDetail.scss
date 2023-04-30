@@ -1,0 +1,98 @@
+@mixin button($width) {
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: none;
+  background-color: #dbdbdb;
+  color: #363636;
+  width: 150px;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.2s ease all;
+
+  &:hover {
+    background: rgb(46, 103, 248, 0.5);
+    background: linear-gradient(
+      90deg,
+      rgb(46, 103, 248, 0.3) 0%,
+      rgb(235, 33, 46, 0.3) 100%
+    );
+  }
+}
+
+.listDetail {
+  text-align: center;
+  background: #9c9a9a;
+  background: linear-gradient(90deg, #acb6ce 0%, rgba(173, 157, 157, 0.8) 100%);
+  margin: 0;
+
+  h1 {
+    margin: 0;
+    padding: 20px;
+  }
+}
+
+.listDetail__main {
+  width: 1200px;
+  height: max-content;
+  margin: 10px auto;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 40px;
+  background: rgb(46, 103, 248, 0.5);
+  padding: 30px 0;
+  background: linear-gradient(
+    90deg,
+    rgb(150, 168, 214) 0%,
+    rgb(204, 129, 134) 100%
+  );
+  @media screen and (max-width: 1250px) {
+    flex-direction: column;
+    width: 600px;
+    gap: 10px;
+  }
+  @media screen and (max-width: 1250px) {
+    width: 85vw;
+  }
+  @media screen and (max-width: 340px) {
+    padding-top: 0;
+  }
+
+  ul {
+    padding: 0;
+  }
+
+  img {
+    width: 500px;
+    @media screen and (max-width: 1250px) {
+      padding-bottom: 40px;
+      border-bottom: 1px solid gray;
+    }
+    @media screen and (max-width: 600px) {
+      width: 400px;
+    }
+    @media screen and (max-width: 475px) {
+      width: 250px;
+    }
+    @media screen and (max-width: 340px) {
+      display: none;
+    }
+  }
+
+  li {
+    margin: 10px;
+    text-align: center;
+    list-style-type: none;
+
+    span {
+      font-weight: 700;
+    }
+  }
+}
+
+.backHome {
+  @include button(200px);
+}

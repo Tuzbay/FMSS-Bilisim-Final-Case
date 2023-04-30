@@ -1,0 +1,51 @@
+// Bu sayfada yıldız gemilerinin model ve name değerleri yer almaktadır. Arama butonunda model yazıldığında name değerine çevirip yönlendirme işlemi yapması için bu dosyayı kullanıyorum.
+
+export const nameModel = [
+  { model: "CR90 corvette", name: "CR90-corvette" },
+  { model: "Imperial I-class Star Destroyer", name: "Star-Destroyer" },
+  {
+    model: "Sentinel-class landing craft",
+    name: "Sentinel-class-landing-craft",
+  },
+  { model: "DS-1 Orbital Battle Station", name: "Death-Star" },
+  { model: "YT-1300 Light Freighter", name: "Millennium-Falcon" },
+  { model: "BTL Y-Wing", name: "Y-wing" },
+  { model: "T-65 X-Wing", name: "X-wing" },
+  { model: "Twin Ion Engine Advanced X1", name: "TIE-Advanced-x1" },
+  { model: "Executor-Class Star Dreadnought", name: "Executor" },
+  { model: "GR-75 Medium Transport", name: "Rebel-transport" },
+  { model: "Firespray-31-Class Patrol and Attack", name: "Slave-1" },
+  { model: "Lambda-Class T-4a Shuttle", name: "Imperial-shuttle" },
+  {
+    model: "EF76-Nebulon-B-escort-frigate",
+    name: "EF76-Nebulon-B-escort-frigate",
+  },
+  { model: "MC80 Libery Type Star Cruiser", name: "Calamari-Cruiser" },
+  { model: "RZ-1 A-Wing Interceptor", name: "A-wing" },
+  { model: "A/SF-01 B-Wing Starfighter", name: "B-wing" },
+  { model: "Consular-Class Cruiser", name: "Republic-Cruiser" },
+  { model: "Lucrehulk-Class Droid Control Ship", name: "Droid-control-ship" },
+  { model: "N-1 Starfighter", name: "Naboo-fighter" },
+  { model: "J-Type 327 Nubian Royal Starship", name: "Naboo-Royal-Starship" },
+  { model: "Star Courier", name: "Scimitar" },
+  { model: "J-type diplomatic barge", name: "J-type-diplomatic-barge" },
+  { model: "Botajef AA-9 Freighter-Liner", name: "AA-9-Coruscant-freighter" },
+  { model: "Delta-7 Aethersprite-Class Interceptor", name: "Jedi-starfighter" },
+  { model: "H-type Nubian yacht", name: "H-type-Nubian-yacht" },
+  { model: "Acclamator I-Class Assault Ship", name: "Republic-Assault-ship" },
+  { model: "Punworcca 116-Class Interstellar Sloop", name: "Solar-Sailer" },
+  {
+    model: "Providence-Class Carrier/Destroyer",
+    name: "Trade-Federation-cruiser",
+  },
+  { model: "Theta-class T-2c shuttle", name: "Theta-class-T-2c-shuttle" },
+  { model: "Senator-Class Star Destroyer", name: "Republic-attack-cruiser" },
+  { model: "J-Type Star Skiff", name: "Naboo-star-skiff" },
+  { model: "Eta-2 Actis-Class Light Interceptor", name: "Jedi-Interceptor" },
+  { model: "Aggressive Reconnaissance-170 Starfighter", name: "arc-170" },
+  { model: "Munificent-Class Star Frigate", name: "Banking-clan-frigte" },
+  { model: "Belbullab-22 starfighter", name: "Belbullab-22-starfighter" },
+  { model: "Alpha-3 Nimbus-Class V-Wing Starfighter", name: "V-wing" },
+];
+
+export default nameModel;

@@ -1,0 +1,118 @@
+// Bu sayfada yıldız gemileri isimlerine id değerleri tanımlanmıştır. Ayrıca starships kategorisinde yıldız gemisi detay sayfasındaki bilgiler yer almaktadır.
+
+export const starships = [
+  ["Model", "model"],
+  ["Name", "name"],
+  ["Hyperdrive Rating", "hyperdrive_rating"],
+  ["Manufacturer", "manufacturer"],
+  ["Length", "length"],
+  ["Cost in Credits", "cost_in_credits"],
+  ["Max Atmosphering Speed", "max_atmosphering_speed"],
+  ["Crew", "crew"],
+  ["Passengers", "passengers"],
+  ["Cargo Capacity", "cargo_capacity"],
+  ["Consumables", "consumables"],
+  ["MGLT", "MGLT"],
+  ["Starship Class", "starship_class"],
+];
+
+export const infoIndex = [
+  { id: 0, name: "CR90-corvette" },
+  { id: 1, name: "Star-Destroyer" },
+  { id: 2, name: "Sentinel-class-landing-craft" },
+  { id: 3, name: "Death-Star" },
+  { id: 4, name: "Millennium-Falcon" },
+  { id: 5, name: "Y-wing" },
+  { id: 6, name: "X-wing" },
+  { id: 7, name: "TIE-Advanced-x1" },
+  { id: 8, name: "Executor" },
+  { id: 9, name: "Rebel-transport" },
+  { id: 10, name: "Slave-1" },
+  { id: 11, name: "Imperial-shuttle" },
+  { id: 12, name: "EF76-Nebulon-B-escort-frigate" },
+  { id: 13, name: "Calamari-Cruiser" },
+  { id: 14, name: "A-wing" },
+  { id: 15, name: "B-wing" },
+  { id: 16, name: "Republic-Cruiser" },
+  { id: 17, name: "Droid-control-ship" },
+  { id: 18, name: "Naboo-fighter" },
+  { id: 19, name: "Naboo-Royal-Starship" },
+  { id: 20, name: "Scimitar" },
+  { id: 21, name: "J-type-diplomatic-barge" },
+  { id: 22, name: "AA-9-Coruscant-freighter" },
+  { id: 23, name: "Jedi-starfighter" },
+  { id: 24, name: "H-type-Nubian-yacht" },
+  { id: 25, name: "Republic-Assault-ship" },
+  { id: 26, name: "Solar-Sailer" },
+  { id: 27, name: "Trade-Federation-cruiser" },
+  { id: 28, name: "Theta-class-T-2c-shuttle" },
+  { id: 29, name: "Republic-attack-cruiser" },
+  { id: 30, name: "Naboo-star-skiff" },
+  { id: 31, name: "Jedi-Interceptor" },
+  { id: 32, name: "arc-170" },
+  { id: 33, name: "Banking-clan-frigte" },
+  { id: 34, name: "Belbullab-22-starfighter" },
+  { id: 35, name: "V-wing" },
+];
+
+export const people = [
+  ["Name", "name"],
+  ["Birth Year", "birth_year"],
+  ["Gender", "gender"],
+  ["Home World", "homeworld"],
+  ["Height", "height"],
+  ["Mass", "mass"],
+  ["Hair Color", "hair_color"],
+  ["Skin Color", "skin_color"],
+  ["Eye Color", "eye_color"],
+  ["Species", "species"],
+  ["Vehicle", "vehicle"],
+  ["Starships", "starships"],
+];
+
+export const planets = [
+  ["Rotation Period", "rotation_period"],
+  ["Population", "population"],
+  ["Orbital Period", "orbital_period"],
+  ["Terrain", "terrain"],
+  ["Diameter", "diameter"],
+  ["Climate", "climate"],
+  ["Gravity", "gravity"],
+  ["Surface Water", "surface_water"],
+];
+
+export const species = [
+  ["Name", "name"],
+  ["Classification", "classification"],
+  ["Designation", "designation"],
+  ["Average Height", "average_height"],
+  ["Skin Colors", "skin_colors"],
+  ["Hair Colors", "hair_colors"],
+  ["Eye Colors", "eye_colors"],
+  ["Average Lifespan", "average_lifespan"],
+  ["Homeworld", "homeworld"],
+  ["Language", "language"],
+];
+
+export const vehicles = [
+  ["Name", "name"],
+  ["Model", "model"],
+  ["Manufacturer", "manufacturer"],
+  ["Cost in Credits", "cost_in_credits"],
+  ["Length", "length"],
+  ["Max Atmosphering Speed", "max_atmosphering_speed"],
+  ["Crew", "crew"],
+  ["Passengers", "passengers"],
+  ["Cargo Capacity", "cargo_capacity"],
+  ["Consumables", "consumables"],
+  ["Vehicle Class", "vehicle_class"],
+];
+
+export default {
+  starships,
+  people,
+  planets,
+  species,
+  vehicles,
+  infoIndex,
+};
