@@ -1,3 +1,5 @@
+<h3 align=center>This project will be update soon...</h3>
+
 ![image](https://user-images.githubusercontent.com/77413300/235921204-3eb89f17-0a18-490f-8023-5f2d5ad0e5aa.png)
 
 <h1 align=center> FMSS Frontend Practicum Final Case </h1>
